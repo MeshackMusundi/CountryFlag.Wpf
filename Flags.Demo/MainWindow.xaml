@@ -3,10 +3,29 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Flags.Demo"
+        xmlns:cf="clr-namespace:CountryFlag.Wpf;assembly=CountryFlag.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Flags"
+        Width="358" Height="280" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <RadialGradientBrush Center="0.152,0.257" GradientOrigin="0.085,0.177" RadiusX="1.121" RadiusY="1.121">
+            <GradientStop Color="#FFC2CDD0" Offset="0"/>
+            <GradientStop Color="#FFAEC7CE" Offset="1"/>
+            <GradientStop Color="#FF596E74" Offset="0.595"/>
+        </RadialGradientBrush>
+    </Window.Background>
 
+    <Grid>
+        <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <cf:CountryFlag CountryCode="BT" Margin="5"/>
+            <cf:CountryFlag CountryCode="AF" Margin="5"/>
+            <cf:CountryFlag CountryCode="AO" Margin="5"/>
+            <cf:CountryFlag CountryCode="BB" Margin="5"/>
+            <cf:CountryFlag CountryCode="KE" Margin="5"/>
+            <cf:CountryFlag CountryCode="BR" Margin="5"/>
+            <cf:CountryFlag CountryCode="EG" Margin="5"/>
+            <cf:CountryFlag CountryCode="RS" Margin="5"/>
+            <cf:CountryFlag CountryCode="SZ" Margin="5"/>
+        </WrapPanel>
     </Grid>
 </Window>
