@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
+    <Authors>Meshack Musundi</Authors>
+    <Description>Country flags WPF control library with flags of 255 countries and territories.</Description>
+    <Copyright>Copyright © 2022 Meshack Musundi</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/MeshackMusundi/CountryFlag.Wpf</RepositoryUrl>
+    <PackageTags>wpf, flags, countries, country</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
