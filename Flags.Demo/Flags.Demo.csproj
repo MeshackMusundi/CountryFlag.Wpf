@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CountryFlag.Wpf\CountryFlag.Wpf.csproj" />
+  </ItemGroup>
+
 </Project>
