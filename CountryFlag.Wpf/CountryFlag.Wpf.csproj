@@ -5,8 +5,4 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Flags\" />
-  </ItemGroup>
-
 </Project>
